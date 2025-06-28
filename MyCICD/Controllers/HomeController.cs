@@ -14,6 +14,7 @@ namespace MyCICD.Controllers
         private readonly ILogger<HomeController> _logger;
         //thesting 
         //ok..
+        //dat 
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
