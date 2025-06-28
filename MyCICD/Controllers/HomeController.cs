@@ -12,7 +12,7 @@ namespace MyCICD.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-
+        //thesting 
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
