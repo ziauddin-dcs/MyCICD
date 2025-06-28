@@ -14,11 +14,12 @@ namespace MyCICD.Controllers
         private readonly ILogger<HomeController> _logger;
         //thesting 
         //ok..
-        //dat 
+        //da
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
         }
+        //this is index method
 
         public IActionResult Index()
         {
